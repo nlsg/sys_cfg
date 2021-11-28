@@ -1,0 +1,16 @@
+keycode 64 = Mode_switch
+keysym h = h H Left
+keysym l = l L Right
+keysym k = k K Up
+keysym j = j J Down	
+keysym n = n N BackSpace
+keysym p = p P Return
+keysym b = b B F12
+
+keysym a = a A Left
+keysym d = d D Right
+keysym w = w W Up
+keysym s = s S Down
+keysym c = c C BackSpace
+keysym q = q Q Return
+
