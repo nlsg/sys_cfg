@@ -22,4 +22,4 @@ export nvrc='$HOME/.config/nvim/init.vim'
 export LIB='/usr/include'
 export TERM=rxvt-unicode
 export BROWSER='firefox'
-export PATH=$PATH:/home/nls/tools/node-v14.15.4-linux-x64/bin:/home/nls/.local/bin:/home/nls/.bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/nls/cpp/:/home/nls/py/pytools:/home/nls/.fzf/bin
+export PATH=$PATH:/home/nls/tools/node-v14.15.4-linux-x64/bin:/home/nls/.local/bin:/home/nls/.bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/nls/cpp/:/home/nls/py/pytools:/home/nls/.fzf/bin:/home/nls/sys_cfg
