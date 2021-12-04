@@ -6,7 +6,7 @@ alias yt='ytfzf -t'
 alias tch_on='xinput set-prop 14 "Device Enabled" 1'
 alias tch_off='xinput set-prop 14 "Device Enabled" 0'
 alias la='ls -hals'
-alias lg='la | grep'
+alias lg='ls | grep'
 alias transde='trans -t de -s en' 
 alias transen='trans -t en -s de' 
 alias nv='nvim'
@@ -14,6 +14,7 @@ alias vs='nvim -S ~/s.vim'
 alias bt='btop'
 alias python='python3'
 
+export TESSDATA_PREFIX='/usr/share/tessdata'
 export SD=/run/media/nls/disk
 export EDITOR='nv'
 export DWM='/usr/arcolinux-dwm/etc/skel/.config/arco-dwm'
@@ -23,3 +24,4 @@ export LIB='/usr/include'
 export TERM=rxvt-unicode
 export BROWSER='firefox'
 export PATH=$PATH:/home/nls/tools/node-v14.15.4-linux-x64/bin:/home/nls/.local/bin:/home/nls/.bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/nls/cpp/:/home/nls/py/pytools:/home/nls/.fzf/bin:/home/nls/sys_cfg
+
