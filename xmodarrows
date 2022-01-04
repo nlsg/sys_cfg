@@ -4,13 +4,14 @@ keysym l = l L Right
 keysym k = k K Up
 keysym j = j J Down	
 keysym n = n N BackSpace
+keysym m = m M Delete
 keysym p = p P Return
-keysym b = b B F12
 
 keysym a = a A Left
 keysym d = d D Right
 keysym w = w W Up
 keysym s = s S Down
 keysym c = c C BackSpace
+keysym x = x X Delete
 keysym q = q Q Return
 
