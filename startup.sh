@@ -8,9 +8,13 @@ xmodmap ~/sys_cfg/xmodarrows
 
 export PATH=$PATH:/home/nls/py/batd
 
-feh --bg-scale ~/bg/6_.*
+feh --bg-scale ~/bg/16.*
 tlp start
+picom &
+killall -q polybar
+polybar bar & disown
 kill $(pidof xfce4-notifyd)
 dunst
 
 sudo mount /dev/mmcblk0p1 /home/nls/sd/
+
