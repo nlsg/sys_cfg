@@ -10,9 +10,10 @@ export PATH=$PATH:/home/nls/py/batd
 
 feh --bg-scale ~/bg/16.*
 tlp start
-picom &
+picom & disown
 killall -q polybar
 polybar bar & disown
+#compton is used as composition manager ... start it regularlly if necessary
 kill $(pidof xfce4-notifyd)
 dunst
 

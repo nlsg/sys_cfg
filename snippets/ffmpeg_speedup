@@ -1,0 +1,1 @@
+ffmpeg -i out.gif -filter:v "setpts=0.5*PTS" out_.gif

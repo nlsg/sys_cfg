@@ -13,11 +13,8 @@ super + space
 super + ctrl + space
   ${URXVT} -e $(echo $PATH | sed 's|:|\n|g' | xargs ls | sed '/:/d' | sed '/^$/d' | rofi -dmenu| rofi -dmenu)
 
-super + b; {b, n, super + b}
-  bspc rule -a URxvt -o state=floating && ${URXVT} -e {btop, nvis, python3}
-
-super + b; space
-  bspc node -d '^9'
+super + b; {b, n, super + b, super + n, super + m}
+  bspc rule -a URxvt -o state=floating && ${URXVT} -e {btop, nvis, python3, nmtui, ncpamixer}
 
 super + b; q
   bspc rule -a qutebrowser -o state=floating && qutebrowser
