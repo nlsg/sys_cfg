@@ -1,3 +1,4 @@
+
 #!/bin/env bash
 
 imagefile="/tmp/sloppy.$RANDOM.png"
@@ -8,4 +9,3 @@ read -r G < <(echo $slop)
 import -window root -crop $G $imagefile
 tesseract $imagefile $text 2>/dev/null 
 cat $text".txt" | xclip -selection c
-# cat $text".txt" | less
