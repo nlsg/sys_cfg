@@ -13,7 +13,7 @@
 [bar/bar]
   modules-right  = filesystem temperature proc_thread_counter memory cpu bat date 
   modules-left   = bspwm xwindow
-  modules-center = lang
+  modules-center = 
   separator =  |   
   separator-padding = 2
   separator-foreground = ${colors.foreground-alt}
@@ -48,13 +48,6 @@
 
   tray-position = right
   tray-padding = 2
-
-[module/lang]
-  type = custom/script
-  exec = cat ${HOME}/py/pytools/trans_data | shuf -n1
-  interval = 10
-  format-prefix-foreground  = ${colors.foreground-alt}
-  format-underline          = ${colors.underline}
 
 [module/date]
   type = custom/script
