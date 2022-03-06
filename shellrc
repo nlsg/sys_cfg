@@ -22,6 +22,7 @@ alias pa='/usr/bin/ncpamixer'
 alias ls_path="echo $PATH | sed  's|:|\n|g' | xargs ls"
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "State|to\ |time|percentage"'
 alias cn="cnfile"
+alias cli-typer='node rep/cli-typer/app.js -t 120'
 
 export EDITOR='nvim'
 export VISUAL='nvim'
