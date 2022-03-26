@@ -8,7 +8,7 @@ like sxhkd or dmenu
 import pyautogui as pag
 from os import system, popen
 
-CMD_STR = "mpv {0} --input-ipc-server=/tmp/mpv.socket"
+CMD_STR = "mpv {0} --input-ipc-server=/tmp/mpvd.socket"
 
 def get_link():
   pag.click(button="right")
@@ -23,6 +23,6 @@ def fire_mpv(link):
 def main():
   fire_mpv(get_link())
   
-if name == "__main__":
+if __name__ == "__main__":
   main()
 

@@ -7,6 +7,8 @@ super + {_,shift +}Return
   {$URXVT, bspc rule -a \* -o state=floating && $URXVT}
 
 # program launcher
+super + v
+	open_mpv.py
 super + space
   bash "$(echo $PATH | sed 's|:|\n|g' | xargs ls | sed '/:/d' | sed '/^$/d' | rofi -dmenu)"
 
