@@ -1,0 +1,1 @@
+from sys import path; path.insert(1, "/home/nls/py/lib");
