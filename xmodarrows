@@ -10,7 +10,7 @@ keysym m = m M Delete
 keysym b = b B Return
 
 keysym a = a A Left
-keysym d = d D Right
+keysym d = d D slash
 keysym w = w W Up
 keysym s = s S Down
 

@@ -3,6 +3,8 @@
 is a tool for firefox to open a link - pionted by the mouse - in mpv.
 this script is ment to be triggered via a hotkeydaemon or launcher,
 like sxhkd or dmenu
+dependancys:
+ - xclip
 '''
 
 import pyautogui as pag
