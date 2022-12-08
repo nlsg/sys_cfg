@@ -1,0 +1,3 @@
+import uasyncio;
+from api import coro, run_coro;
+run_coro();
